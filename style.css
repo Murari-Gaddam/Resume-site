@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  src: url(fonts/Roboto-VariableFont_wdthwght.ttf);
-  font-family: roboto;
+    src: url(fonts/Roboto-VariableFont_wdthwght.ttf);
+    font-family: roboto;
 }
 
 .body {
@@ -44,6 +44,33 @@
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+#heading2 {
+    font-size: 60px;
+    text-align: left;
+    color: rgb(255, 168, 54);
+    font-family: raghu;
+    margin: 20px 10px 10px 50px;
+    display: block;
+}
+
+#heading3 {
+    font-size: 50px;
+    text-align: left;
+    color: rgb(255, 168, 54);
+    font-family: raghu;
+    margin: 20px 10px 10px 50px;
+    display: block;
+}
+
+#heading4 {
+    font-size: 35px;
+    text-align: left;
+    color: rgb(255, 168, 54);
+    font-family: raghu;
+    margin: 20px 10px 10px 100px;
+    display: block;
+}
+
 #headingdiv {
     width: 50%;
 }
@@ -60,23 +87,13 @@
     padding: 5px 5px;
     border-radius: 15px;
     transition: 0.2s;
-    margin-left:20px ;
+    margin-left: 20px;
 }
 
 #button:hover {
     border-color: #00ffe0;
     box-shadow: 0 10px 20px rgba(0, 255, 255, 0.3), 0 6px 12px rgba(0, 0, 0, 0.4);
     transform: scale(1.03);
-}
-
-
-#heading2 {
-    font-size: 50px;
-    text-align: left;
-    color: rgb(255, 168, 54);
-    font-family: raghu;
-    margin: 20px 10px 10px 50px;
-    display: block;
 }
 
 .about_me1 {
@@ -92,7 +109,8 @@
     background-color: rgb(255, 244, 173);
     border-color: #00ffe0;
     box-shadow: 0 10px 20px rgba(0, 255, 255, 0.9), 0 6px 12px rgba(0, 0, 0, 0.4);
-    transform: scale(1.03);transition-duration: .3s;
+    transform: scale(1.03);
+    transition-duration: .3s;
 }
 
 #about_me_list {
@@ -117,7 +135,8 @@
     background-color: rgb(255, 244, 173);
     border-color: #00ffe0;
     box-shadow: 0 10px 20px rgba(0, 255, 255, 0.9), 0 6px 12px rgba(0, 0, 0, 0.4);
-    transform: scale(1.03);transition-duration: .3s;
+    transform: scale(1.03);
+    transition-duration: .3s;
 }
 
 .education {
@@ -126,19 +145,74 @@
     background-color: rgb(245, 245, 208);
     border: 15px solid rgb(247, 168, 22);
     border-radius: 50px;
-    
+
 }
+
 .education:hover {
     background-color: rgb(255, 244, 173);
     border-color: #00ffe0;
     box-shadow: 0 10px 20px rgba(0, 255, 255, 0.9), 0 6px 12px rgba(0, 0, 0, 0.4);
-    transform: scale(1.03);transition-duration: .3s;
+    transform: scale(1.03);
+    transition-duration: .3s;
 }
-#education_table{width:90%;align-self: center;margin:0% 5% 5% 5%;}
-#eth{font-family: raghu;font-size: xx-large;}
-#etd{font-family: roboto;font-size: x-large;padding: 5px 5px 2px 3px;}
-.skills{width: 80%;
+
+#education_table {
+    width: 90%;
+    align-self: center;
+    margin: 0% 5% 5% 5%;
+}
+
+#eth {
+    font-family: raghu;
+    font-size: xx-large;
+}
+
+#etd {
+    font-family: roboto;
+    font-size: x-large;
+    padding: 5px 5px 2px 3px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    height: 30px;
+    overflow: hidden;
+    width: 60%;
+    margin-right: 50px;
+    align-self: right;
+}
+
+.progress-bar {
+    background: linear-gradient(to right, hsl(35, 100%, 70%), #ff8c00);
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;
+    font-weight: bold;
+    width: 0px;
+    font-family: raghu;
+}
+
+.skills {
+    width: 80%;
     margin: 100px 20% 0% 10%;
     background-color: rgb(245, 245, 208);
     border: 15px solid rgb(247, 168, 22);
-    border-radius: 50px;}
+    border-radius: 50px;
+}
+.skills:hover {
+    background-color: rgb(255, 244, 173);
+    border-color: #00ffe0;
+    box-shadow: 0 10px 20px rgba(0, 255, 255, 0.9), 0 6px 12px rgba(0, 0, 0, 0.4);
+    transform: scale(1.03);
+    transition-duration: .3s;
+}
+
+#skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
